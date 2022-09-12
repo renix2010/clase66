@@ -1,0 +1,54 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicaciones juegos y chatbots con bootstrap</title>
+    <!-- inicializar 3 enlaces: 1) funcionalidad css y 2) enlaces adiconales para JAVASCRIPt -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<!-- En Bootstrap, cualquier código que escribamos se encontrará dentro de class div container (contenedor).
+     Container añadirá margin-left, margin-right (márgenes), padding-right y padding-left (relleno) a todos los elementos
+      que se encuentran dentro de este. -->
+
+<body>
+    <div class="container">
+        <section id="app">
+            <h1>Aplicaciones</h1>
+            <div class="line"></div>
+            <iframe width="392" height="620" style="border: 0px;"
+                src="https://studio.code.org/projects/applab/24p7wJf-AQ7RvqVCsXUEUGgME9gddYQdW8izt5WGaeU/embed"></iframe>
+            <iframe width="440" height="757" style="border: 0px;"
+                src="https://studio.code.org/projects/gamelab/QPpo8ZM9JS0XLiWfJ4sSGY77Gjxk-5veL6BMOgLiCFs/embed"></iframe>
+        </section>
+        <div id="myCarousel" class="carousel slide">
+            <!-- slide -->
+            <center>
+                <!-- Coloca las opciones en forma de slides (diapositivas), agregar el número que deseen de apps -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://studio.code.org/projects/gamelab/Sdt_OgR8VajkwZ9t45UeVtzMLGiyqhNFJexB9eCe480"
+                            target="_blank"> <img src="game1.png"> </a>
+                        <p>Carrera de autos</p>
+                    </div>
+                    <div class="item"> <a
+                            href="https://studio.code.org/projects/gamelab/N25kriFEAiBTZwfbYpDjc_qryNjSBhYW-3fOuYRt_SI"
+                            target="_blank"> <img src="game2.png"> </a>
+                        <p>En el espacio</p>
+                    </div>
+                    <!-- Controles izquierda y derecha --> <a class="left carousel-control" href="#myCarousel"
+                        data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a
+                        class="right carousel-control" href="#myCarousel" data-slide="next"> <span
+                            class="glyphicon glyphicon-chevron-right"></span> </a>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
